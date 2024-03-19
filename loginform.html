@@ -1,0 +1,71 @@
+<html>
+<head>
+<meta name="viewport" content="width=device, initial-scale=1">
+<title>student login form</title>
+<style>
+h1{
+font-family:calibri;
+}
+body
+{
+ font-family:calibri,helvetica,sans-serif;
+ background-color:dodgerblue;
+}
+button
+{
+ background-color:#4caf50;
+ width:100%;
+ color:yellow;
+ padding:15px;
+ margin:10px 0px;
+ border:none;
+ cursor:pointer;
+}
+form
+{
+ border:10px solid#f1f1f1;
+}
+ input[type=text],input[type=password]
+{
+ width:100%;
+ margin:10px 0px;
+ padding:12px 20px;
+ display:inline-block;
+ border:2px solid green;
+ box-sizing:border-box;
+}
+button:hover
+{
+ opacity:0.7;
+}
+.cancelbtn
+{
+ width:auto;
+ padding:12px 18px;
+ margin:10px 5px;
+}
+.container
+{
+ padding:25px;
+ background-color:lightblue;
+}
+</style>
+</head>
+<body>
+<center>
+<h1>login form</h1>
+</center>
+<form action="registration.html" target="blank">
+<div class="container">
+<label>username:</label>
+<input type="text" placeholder="entername" name="username" required>
+<label>password:</label>
+<input type="password" placeholder="enterpassword" name="password" required>
+	<button type="submit">login</button>
+<input type="checkbox" checked="checked"> remember me 
+	<button type="button" class="cancelbtn"> cancel </button>
+forgot<a href="#"> password?</a>
+</div>
+</form>
+</body>
+</html>
